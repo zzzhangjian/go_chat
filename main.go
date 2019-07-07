@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	_ "github.com/zzzhangjian/go_chat/boot"
+	_ "github.com/zzzhangjian/go_chat/router"
+	"github.com/gogf/gf/g"
+)
 
-func main(){
-	fmt.Println("main....")
+func main() {
+	g.Server().Run()
 }

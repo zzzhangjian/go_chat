@@ -1,10 +1,10 @@
 package a_user
 
 import (
-	"github.com/gogf/gf-demos/app/service/user"
-	"github.com/gogf/gf-demos/library/response"
+	"github.com/zzzhangjian/go_chat/library/response"
 	"github.com/gogf/gf/g/net/ghttp"
 	"github.com/gogf/gf/g/util/gvalid"
+	"go_chat/app/service/user"
 )
 
 // 用户API管理对象
